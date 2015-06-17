@@ -1,4 +1,4 @@
-=== Pie Register ===
+=== Custom CSS/JS ===
 Contributors: johnibom
 
 Tags: custom css, custom js, custom jquery, custom javascript, tracking pixel
