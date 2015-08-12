@@ -5,7 +5,7 @@ Plugin URI: http://pie-solutions.com/wp-custom-cssjs/
 Description: Add CSS, Javascript, Jquery and Tracking Pixel without modifying your Wordpress Theme :)
 
 Author: Johnibom
-Version: 1.0
+Version: 1.1
 Author URI: http://www.pie-solutions.com/
 			
 CHANGELOG
@@ -83,10 +83,10 @@ class pieCsutomCJ{
 			add_action('wp_head',array($this,'hook_pie_js_box_header'));
 		}
 		if($this->wpccj_option['pie_css_box_footer'] != ''){
-			add_action('wp_head',array($this,'hook_pie_css_box_footer'));
+			add_action('wp_footer',array($this,'hook_pie_css_box_footer'));
 		}
 		if($this->wpccj_option['pie_js_box_footer'] != ''){
-			add_action('wp_head',array($this,'hook_pie_js_box_footer'));
+			add_action('wp_footer',array($this,'hook_pie_js_box_footer'));
 		}
 	}
 	function wpccj_admin_notice() {

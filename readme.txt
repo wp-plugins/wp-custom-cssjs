@@ -3,8 +3,8 @@ Contributors: johnibom
 
 Tags: custom css, custom js, custom jquery, custom javascript, tracking pixel
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 1.0
+Tested up to: 4.2.4
+Stable tag: 1.1
 
 WP Custom CSSJS plugin allows you to put Custom CSS, Javascript, jQuery and Tracking Pixel easily without modifying your theme and right from your dashboard.
 
@@ -34,6 +34,10 @@ http://www.pie-solutions.com/wp-custom-cssjs/
 * Currently This feature is not available. We are working on it.
 
 == CHANGELOG ==
+=v1.1 August 11 2015=
+** Fixes **
+*Hook Footer CSS and JS on WP_FOOTER Hook.
+
 =v1.00 June 16 2015=
 **New Features:**
 
